@@ -1,0 +1,37 @@
+ [
+  {
+  "id": "1",
+  "frase": "Ser o no Ser",
+  "autor": "William Shakespear",
+  "horario": "Indefinido",
+  "imagen": ""
+  },
+  {
+  "id": "2",
+  "frase": "Y debo decir que confío plenamente en la casualidad de haberte conocido",
+  "autor": "Julio Cortazar",
+  "horario": "",
+  "imagen": "Nocturno"
+  },
+  {
+  "id": "3",
+  "frase": "Qué maravilloso es que nadie necesita un solo momento antes de comenzar a mejorar el mundo.",
+  "autor": "El diario de Ana Frank",
+  "horario": "",
+  "imagen": "Matutino"
+  },
+  {
+  "id": "4",
+  "frase": "Voy a darte besos en la cara hasta que tu sonrisa reviente.",
+  "autor": "Anonimo",
+  "horario": "Indefinido",
+  "imagen": ""
+  },
+  {
+  "id": "",
+  "frase": "",
+  "autor": "",
+  "horario": "",
+  "imagen": ""
+  }
+  ]

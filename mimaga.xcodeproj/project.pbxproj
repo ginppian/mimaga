@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C5D30391DCAA434001E13F2 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5D30381DCAA434001E13F2 /* Random.swift */; };
+		3C7CB9FE1DC9891C0099423F /* libro1.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C7CB9FD1DC9891C0099423F /* libro1.json */; };
+		3C7CBA001DC98CDB0099423F /* JSONReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7CB9FF1DC98CDB0099423F /* JSONReader.swift */; };
 		3CA31EB11DC94D7F0047AB18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA31EB01DC94D7F0047AB18 /* AppDelegate.swift */; };
-		3CA31EB31DC94D7F0047AB18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA31EB21DC94D7F0047AB18 /* ViewController.swift */; };
 		3CA31EB61DC94D7F0047AB18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA31EB41DC94D7F0047AB18 /* Main.storyboard */; };
 		3CA31EB81DC94D7F0047AB18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CA31EB71DC94D7F0047AB18 /* Assets.xcassets */; };
 		3CA31EBB1DC94D7F0047AB18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA31EB91DC94D7F0047AB18 /* LaunchScreen.storyboard */; };
-		3CA31EC71DC9622F0047AB18 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA31EC61DC9622F0047AB18 /* SWRevealViewController.m */; };
-		3CA31EC91DC967E30047AB18 /* pruebaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA31EC81DC967E30047AB18 /* pruebaViewController.swift */; };
+		3CA31EC91DC967E30047AB18 /* PrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA31EC81DC967E30047AB18 /* PrincipalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C5D30381DCAA434001E13F2 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		3C7CB9FD1DC9891C0099423F /* libro1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = libro1.json; sourceTree = "<group>"; };
+		3C7CB9FF1DC98CDB0099423F /* JSONReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONReader.swift; sourceTree = "<group>"; };
 		3CA31EAD1DC94D7F0047AB18 /* mimaga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mimaga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA31EB01DC94D7F0047AB18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3CA31EB21DC94D7F0047AB18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3CA31EB51DC94D7F0047AB18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CA31EB71DC94D7F0047AB18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CA31EBA1DC94D7F0047AB18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CA31EBC1DC94D7F0047AB18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CA31EC41DC9622E0047AB18 /* mimaga-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mimaga-Bridging-Header.h"; sourceTree = "<group>"; };
-		3CA31EC51DC9622F0047AB18 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
-		3CA31EC61DC9622F0047AB18 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
-		3CA31EC81DC967E30047AB18 /* pruebaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pruebaViewController.swift; sourceTree = "<group>"; };
+		3CA31EC81DC967E30047AB18 /* PrincipalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrincipalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C7CBA011DC98E3B0099423F /* Libros */ = {
+			isa = PBXGroup;
+			children = (
+				3C7CB9FD1DC9891C0099423F /* libro1.json */,
+			);
+			name = Libros;
+			sourceTree = "<group>";
+		};
 		3CA31EA41DC94D7F0047AB18 = {
 			isa = PBXGroup;
 			children = (
@@ -60,10 +68,10 @@
 		3CA31EAF1DC94D7F0047AB18 /* mimaga */ = {
 			isa = PBXGroup;
 			children = (
-				3CA31EC31DC962010047AB18 /* SWRevealViewController */,
-				3CA31EB21DC94D7F0047AB18 /* ViewController.swift */,
+				3C7CBA011DC98E3B0099423F /* Libros */,
+				3CCBA70C1DCAAA4F00AC5977 /* Auxiliares */,
 				3CA31EB41DC94D7F0047AB18 /* Main.storyboard */,
-				3CA31EC81DC967E30047AB18 /* pruebaViewController.swift */,
+				3CA31EC81DC967E30047AB18 /* PrincipalViewController.swift */,
 				3CA31EC21DC94D880047AB18 /* Otro */,
 			);
 			path = mimaga;
@@ -80,14 +88,13 @@
 			name = Otro;
 			sourceTree = "<group>";
 		};
-		3CA31EC31DC962010047AB18 /* SWRevealViewController */ = {
+		3CCBA70C1DCAAA4F00AC5977 /* Auxiliares */ = {
 			isa = PBXGroup;
 			children = (
-				3CA31EC51DC9622F0047AB18 /* SWRevealViewController.h */,
-				3CA31EC61DC9622F0047AB18 /* SWRevealViewController.m */,
-				3CA31EC41DC9622E0047AB18 /* mimaga-Bridging-Header.h */,
+				3C7CB9FF1DC98CDB0099423F /* JSONReader.swift */,
+				3C5D30381DCAA434001E13F2 /* Random.swift */,
 			);
-			name = SWRevealViewController;
+			name = Auxiliares;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +161,7 @@
 				3CA31EBB1DC94D7F0047AB18 /* LaunchScreen.storyboard in Resources */,
 				3CA31EB81DC94D7F0047AB18 /* Assets.xcassets in Resources */,
 				3CA31EB61DC94D7F0047AB18 /* Main.storyboard in Resources */,
+				3C7CB9FE1DC9891C0099423F /* libro1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,10 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CA31EB31DC94D7F0047AB18 /* ViewController.swift in Sources */,
+				3C5D30391DCAA434001E13F2 /* Random.swift in Sources */,
+				3C7CBA001DC98CDB0099423F /* JSONReader.swift in Sources */,
 				3CA31EB11DC94D7F0047AB18 /* AppDelegate.swift in Sources */,
-				3CA31EC71DC9622F0047AB18 /* SWRevealViewController.m in Sources */,
-				3CA31EC91DC967E30047AB18 /* pruebaViewController.swift in Sources */,
+				3CA31EC91DC967E30047AB18 /* PrincipalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +302,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nutsystems.mx.mimaga;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "mimaga/mimaga-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -310,7 +317,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nutsystems.mx.mimaga;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "mimaga/mimaga-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
