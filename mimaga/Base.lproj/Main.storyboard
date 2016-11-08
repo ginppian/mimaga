@@ -16,17 +16,23 @@
                         <viewControllerLayoutGuide type="bottom" id="rZ1-jA-CU3"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sJG-En-XqC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mar" translatesAutoresizingMaskIntoConstraints="NO" id="Ovo-l3-zDl"/>
-                            <visualEffectView opaque="NO" alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vsn-8x-uaw">
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="yHm-mL-u6N">
-                                    <frame key="frameInset"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                </view>
-                                <blurEffect style="light"/>
-                            </visualEffectView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T5m-7n-GrE"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fhj-Pe-jXf">
+                                <frame key="frameInset" minX="67" minY="269" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ei-TF-Lq5">
+                                        <frame key="frameInset" minX="90" minY="50" width="59" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="23"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wqD-bk-8Pb">
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83U-4F-sNM">
@@ -80,52 +86,34 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Ser o no ser he ahí el detalle" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fIM-OL-79n">
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="wqD-bk-8Pb" secondAttribute="trailing" constant="-15" id="1xh-In-c3d"/>
-                            <constraint firstItem="KYl-ua-vH0" firstAttribute="top" secondItem="Ovo-l3-zDl" secondAttribute="bottom" id="7VS-HI-fmI"/>
-                            <constraint firstItem="Ovo-l3-zDl" firstAttribute="leading" secondItem="sJG-En-XqC" secondAttribute="leading" id="7aN-Yd-Ut1"/>
-                            <constraint firstItem="fIM-OL-79n" firstAttribute="leading" secondItem="sJG-En-XqC" secondAttribute="leadingMargin" id="CSZ-sW-YG8"/>
-                            <constraint firstItem="Ovo-l3-zDl" firstAttribute="centerX" secondItem="fIM-OL-79n" secondAttribute="centerX" id="CVc-fl-IpH"/>
-                            <constraint firstItem="vsn-8x-uaw" firstAttribute="bottom" secondItem="Ovo-l3-zDl" secondAttribute="bottom" id="E9W-Lk-Ca7"/>
-                            <constraint firstItem="vsn-8x-uaw" firstAttribute="top" secondItem="Ovo-l3-zDl" secondAttribute="top" id="Ewj-3d-ewX"/>
-                            <constraint firstItem="vsn-8x-uaw" firstAttribute="height" secondItem="Ovo-l3-zDl" secondAttribute="height" id="Hur-yY-bnB"/>
-                            <constraint firstItem="KYl-ua-vH0" firstAttribute="leading" secondItem="sJG-En-XqC" secondAttribute="leadingMargin" constant="-17" id="Pqg-4v-xME"/>
-                            <constraint firstItem="wqD-bk-8Pb" firstAttribute="leading" secondItem="KYl-ua-vH0" secondAttribute="leading" id="Tqf-7I-Xiu"/>
-                            <constraint firstItem="KYl-ua-vH0" firstAttribute="trailing" secondItem="wqD-bk-8Pb" secondAttribute="trailing" id="Uev-hU-wG0"/>
-                            <constraint firstItem="fIM-OL-79n" firstAttribute="top" secondItem="XvB-gp-tB9" secondAttribute="bottom" id="XND-Fh-LD5"/>
-                            <constraint firstItem="vsn-8x-uaw" firstAttribute="width" secondItem="Ovo-l3-zDl" secondAttribute="width" id="ZMh-uC-lQ9"/>
-                            <constraint firstItem="Ovo-l3-zDl" firstAttribute="centerY" secondItem="fIM-OL-79n" secondAttribute="centerY" id="av8-U6-UTk"/>
-                            <constraint firstItem="wqD-bk-8Pb" firstAttribute="bottom" secondItem="KYl-ua-vH0" secondAttribute="bottom" id="flj-k8-aIG"/>
-                            <constraint firstItem="vsn-8x-uaw" firstAttribute="leading" secondItem="Ovo-l3-zDl" secondAttribute="leading" id="jRD-g6-Sez"/>
-                            <constraint firstItem="KYl-ua-vH0" firstAttribute="top" secondItem="wqD-bk-8Pb" secondAttribute="top" id="qXM-Tf-5gi"/>
+                            <constraint firstItem="KYl-ua-vH0" firstAttribute="leading" secondItem="T5m-7n-GrE" secondAttribute="leading" id="8k2-nv-6JM"/>
+                            <constraint firstItem="KYl-ua-vH0" firstAttribute="bottom" secondItem="wqD-bk-8Pb" secondAttribute="bottom" id="9BL-g8-pw3"/>
+                            <constraint firstItem="wqD-bk-8Pb" firstAttribute="leading" secondItem="sJG-En-XqC" secondAttribute="leadingMargin" constant="-17" id="HbO-fV-Uhd"/>
+                            <constraint firstItem="T5m-7n-GrE" firstAttribute="leading" secondItem="sJG-En-XqC" secondAttribute="leading" id="IxN-mw-fD3"/>
+                            <constraint firstAttribute="trailing" secondItem="T5m-7n-GrE" secondAttribute="trailing" id="XYf-hc-b3j"/>
+                            <constraint firstItem="KYl-ua-vH0" firstAttribute="trailing" secondItem="T5m-7n-GrE" secondAttribute="trailing" id="cYs-Xj-spD"/>
+                            <constraint firstItem="T5m-7n-GrE" firstAttribute="top" secondItem="sJG-En-XqC" secondAttribute="top" id="e1Z-Hc-9N2"/>
+                            <constraint firstItem="KYl-ua-vH0" firstAttribute="top" secondItem="T5m-7n-GrE" secondAttribute="bottom" id="hkK-Kq-F4X"/>
+                            <constraint firstItem="KYl-ua-vH0" firstAttribute="top" secondItem="wqD-bk-8Pb" secondAttribute="top" id="rRK-fu-lIk"/>
                             <constraint firstAttribute="bottomMargin" secondItem="wqD-bk-8Pb" secondAttribute="bottom" constant="-1" id="ssC-4v-D3l"/>
-                            <constraint firstItem="Ovo-l3-zDl" firstAttribute="top" secondItem="sJG-En-XqC" secondAttribute="top" id="u1a-p8-VaS"/>
-                            <constraint firstAttribute="trailing" secondItem="Ovo-l3-zDl" secondAttribute="trailing" id="wZR-0Y-a1N"/>
-                            <constraint firstItem="vsn-8x-uaw" firstAttribute="trailing" secondItem="Ovo-l3-zDl" secondAttribute="trailing" id="zd5-ux-65B"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Mi Maga ☕️" id="Sg8-9c-SOa"/>
                     <connections>
-                        <outlet property="blur" destination="vsn-8x-uaw" id="Dpi-Sc-b6y"/>
-                        <outlet property="imageView" destination="Ovo-l3-zDl" id="chc-MF-nG4"/>
+                        <outlet property="label" destination="8ei-TF-Lq5" id="FVe-Mz-UD8"/>
+                        <outlet property="scrollView" destination="T5m-7n-GrE" id="YtL-HG-liz"/>
                         <outlet property="slider" destination="vJh-Mw-Unh" id="1ah-8V-7F7"/>
-                        <outlet property="textView" destination="fIM-OL-79n" id="kEj-y4-I3a"/>
                         <outlet property="toolBar" destination="KYl-ua-vH0" id="J0d-hh-JRK"/>
+                        <outlet property="viewLabel" destination="fhj-Pe-jXf" id="t7V-VX-ERn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UT0-vR-Ulw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1616.8" y="-251.42428785607197"/>
+            <point key="canvasLocation" x="1615.9420289855075" y="-251.9021739130435"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="mar" width="564" height="1054"/>
-    </resources>
 </document>

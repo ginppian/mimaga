@@ -28,10 +28,25 @@
   "imagen": ""
   },
   {
-  "id": "",
-  "frase": "",
-  "autor": "",
-  "horario": "",
+  "id": "5",
+  "frase": "Pink Floyd We Cant need more education Pink Floyd in the classroom",
+  "autor": "Anonimo",
+  "horario": "Indefinido",
   "imagen": ""
-  }
-  ]
+  },
+  {
+  "id": "6",
+  "frase": "Sera fia soft serafia soft serafia soft serafia soft serafia soft serfia",
+  "autor": "Anonimo",
+  "horario": "Indefinido",
+  "imagen": ""
+  },
+  {
+  "id": "7",
+  "frase": "Cuantos cuentos cuentas porque cuando cuantas cuentos dime cuantos cuentos cuentas jajaja jejeje que onda arriba arriba arribototota",
+  "autor": "Anonimo",
+  "horario": "Indefinido",
+  "imagen": ""
+  },
+  
+]
